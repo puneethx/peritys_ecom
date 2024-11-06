@@ -49,7 +49,6 @@ export default function About() {
             alt="Shopping"
             fill
             className="object-cover rounded-lg"
-            width={400} height={400}
           />
         </div>
       </div>
@@ -76,7 +75,6 @@ export default function About() {
                   alt={member.name}
                   fill
                   className="object-cover rounded-lg"
-                  width={400} height={400}
                 />
               </div>
               <h3 className="text-xl font-bold mb-2">{member.name}</h3>

@@ -2,6 +2,7 @@
 import React from 'react';
 import { useRouter } from 'next/navigation';
 import { FaSearch, FaHeart, FaShoppingCart } from 'react-icons/fa';
+import Link from 'next/link';
 
 const Header = () => {
   const router = useRouter();
@@ -20,10 +21,10 @@ const Header = () => {
         <div className="flex items-center">
           <nav className="ml-40">
             <ul className="flex space-x-10 font-bold">
-              <li><a href="/">Home</a></li>
-              <li><a href="/contact">Contact</a></li>
-              <li><a href="/about">About</a></li>
-              <li><a href="/signup">Sign Up</a></li>
+              <li><Link href="/">Home</Link></li>
+              <li><Link href="/contact">Contact</Link></li>
+              <li><Link href="/about">About</Link></li>
+              <li><Link href="/signup">Sign Up</Link></li>
             </ul>
           </nav>
         </div>
@@ -40,12 +41,12 @@ const Header = () => {
               <FaSearch className="text-gray-500 hover:text-black" />
             </button>
           </form>
-          <a href="/wishlist" className="text-gray-500 hover:text-black">
+          <Link href="/wishlist" className="text-gray-500 hover:text-black">
             <FaHeart />
-          </a>
-          <a href="/cart" className="text-gray-500 hover:text-black">
+          </Link>
+          <Link href="/cart" className="text-gray-500 hover:text-black">
             <FaShoppingCart />
-          </a>
+          </Link>
         </div>
       </div>
     </header>

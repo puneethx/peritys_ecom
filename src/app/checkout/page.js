@@ -258,7 +258,7 @@ export default function CheckoutPage() {
                             {mergedCartItems.map((item) => (
                                 <div key={`${item.id}-${item.userId || 'local'}`} className="flex items-center">
                                     <div className="w-16 h-16 border border-gray-200 rounded-md overflow-hidden">
-                                        <img
+                                        <Image
                                             src={item.image}
                                             alt={item.title}
                                             className="w-full h-full object-center object-contain"
@@ -267,7 +267,8 @@ export default function CheckoutPage() {
                                     <div className="ml-4 flex-1">
                                         <h3 className="text-sm font-medium">{item.title}</h3>
                                         <p className="text-sm text-gray-500">Qty: {item.quantity}</p>
-                                        <p className="text-sm font-medium">${(item.price * item.quantity).toFixed(2)}</p>
+                                        <p 
+                                        className="text-sm font-medium">${(item.price * item.quantity).toFixed(2)}</p>
                                     </div>
                                 </div>
                             ))}

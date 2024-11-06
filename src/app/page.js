@@ -83,7 +83,7 @@ export default function Home() {
               <div className="bg-white shadow-md rounded-md overflow-hidden mb-8">
                 <div className="carousel flex">
                   <div className="carousel-item flex-shrink-0 w-full">
-                    <img src="https://phonebazaar.shop/assets/iphonebanner.svg" alt="Image" className="w-full h-64 object-cover" />
+                    <Image src="https://phonebazaar.shop/assets/iphonebanner.svg" alt="Image" className="w-full h-64 object-cover" height={400} width={400}/>
                   </div>
                 </div>
                 <div className="carousel-controls flex justify-between items-center px-4 py-2">
@@ -104,7 +104,7 @@ export default function Home() {
           <div className="mb-8 pl-8 pr-8">
             <div className="flex justify-between items-center mb-4">
               <div className="flex gap-20 items-center">
-                <h2 className="text-lg font-bold text-black">Today's Flash Sales</h2>
+                <h2 className="text-lg font-bold text-black">Today&apos;s Flash Sales</h2>
                 <div className="text-black">
                   <span className="font-bold">03</span>d :
                   <span className="font-bold">28</span>h :
@@ -137,7 +137,7 @@ export default function Home() {
                 </a>
               </div>
               <div className="w-1/2">
-                <img src="https://m.media-amazon.com/images/I/710jk0KzTjL._SX679_.jpg" alt="Music Product" height={400} width={400} />
+                <Image src="https://m.media-amazon.com/images/I/710jk0KzTjL._SX679_.jpg" alt="Music Product" height={400} width={400} />
               </div>
             </div>
           </div>
@@ -158,18 +158,18 @@ export default function Home() {
             <h2 className="text-lg font-bold mb-4 text-black">New Arrival</h2>
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-white shadow-md rounded-md overflow-hidden h-128">
-                <img src="https://www.concept-phones.com/wp-content/uploads/2020/11/sony-playstation-5-slim-concept-creator-letsgodigital-3-680x450.jpg" alt="New Arrival 1" className="w-full h-full object-cover" />
+                <Image src="https://www.concept-phones.com/wp-content/uploads/2020/11/sony-playstation-5-slim-concept-creator-letsgodigital-3-680x450.jpg" alt="New Arrival 1" className="w-full h-full object-cover" height={400} width={400}/>
               </div>
               <div className="grid grid-cols-1 gap-4">
                 <div className="bg-white shadow-md rounded-md overflow-hidden h-64">
-                  <img src="https://www.ftmodel.in/public/images/pages/best-modeling-agency-in-indore1696261326.jpg" alt="New Arrival 2" className="w-full h-full object-cover" />
+                  <Image src="https://www.ftmodel.in/public/images/pages/best-modeling-agency-in-indore1696261326.jpg" alt="New Arrival 2" className="w-full h-full object-cover" height={400} width={400}/>
                 </div>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-white shadow-md rounded-md overflow-hidden h-64">
-                    <img src="https://miro.medium.com/v2/resize:fit:750/format:webp/1*b70hpVaBiO_wlyYkDASDxQ.png" alt="New Arrival 4" className="w-full h-full object-cover" />
+                    <Image src="https://miro.medium.com/v2/resize:fit:750/format:webp/1*b70hpVaBiO_wlyYkDASDxQ.png" alt="New Arrival 4" className="w-full h-full object-cover" height={400} width={400}/>
                   </div>
                   <div className="bg-white shadow-md rounded-md overflow-hidden h-64">
-                    <img src="https://ferraricentre.com/wp-content/uploads/2024/01/652e82cd70aa6522dd785109a455904c.webp" alt="New Arrival 5" className="w-full h-full object-cover" />
+                    <Image src="https://ferraricentre.com/wp-content/uploads/2024/01/652e82cd70aa6522dd785109a455904c.webp" alt="New Arrival 5" className="w-full h-full object-cover" height={400} width={400}/>
                   </div>
                 </div>
               </div>

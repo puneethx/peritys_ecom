@@ -6,7 +6,7 @@ export default function ProductCard({ product }) {
     <Link href={`/products/${product.id}`}>
       <div className="bg-white shadow-md rounded-md overflow-hidden cursor-pointer hover:shadow-lg transition-shadow duration-300">
         <div className="relative">
-          <img 
+          <Image
             src={product.image} 
             alt={product.title} 
             className="w-full h-40 object-contain"

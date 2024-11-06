@@ -80,7 +80,7 @@ function CartContents() {
                                 <li key={`${item.id}-${item.userId || 'local'}`} className="p-6">
                                     <div className="flex items-center">
                                         <div className="flex-shrink-0 w-24 h-24 border border-gray-200 rounded-md overflow-hidden">
-                                            <img
+                                            <Image
                                                 src={item.image}
                                                 alt={item.title}
                                                 className="w-full h-full object-center object-contain"

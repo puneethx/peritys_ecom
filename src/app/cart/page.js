@@ -58,7 +58,7 @@ function CartContents() {
             <div className="container mx-auto px-4 py-16">
                 <div className="text-center">
                     <h2 className="text-3xl font-bold text-gray-900 mb-4">Your cart is empty</h2>
-                    <p className="text-gray-600 mb-8">Looks like you haven't added anything to your cart yet.</p>
+                    <p className="text-gray-600 mb-8">Looks like you haven&apos;t added anything to your cart yet.</p>
                     <Link
                         href="/"
                         className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-500 hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"

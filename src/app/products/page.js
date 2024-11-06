@@ -35,7 +35,7 @@ export default function ProductsPage() {
           <div className="grid grid-cols-5 gap-4">
             {products.map((product) => (
               <div key={product.id} className="bg-white shadow-md rounded-md overflow-hidden">
-                <Image src={product.image} alt={product.title} className="w-full h-40 object-contain" />
+                <Image src={product.image} alt={product.title} className="w-full h-40 object-contain" width={400} height={400}/>
                 <div className="p-4">
                   <h3 className="text-lg font-bold mb-2">{product.title}</h3>
                   <p className="text-gray-600 mb-4">${product.price}</p>

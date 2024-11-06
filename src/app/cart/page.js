@@ -85,6 +85,7 @@ function CartContents() {
                                                 src={item.image}
                                                 alt={item.title}
                                                 className="w-full h-full object-center object-contain"
+                                                width={400} height={400}
                                             />
                                         </div>
 

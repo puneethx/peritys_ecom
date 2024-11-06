@@ -33,6 +33,7 @@ export default async function ProductDetailsPage({ params }) {
               src={product.image}
               alt={product.title}
               className="w-full h-96 object-contain p-4"
+              width={400} height={400}
             />
           </div>
           <div className="md:w-1/2 p-8">

@@ -263,6 +263,7 @@ export default function CheckoutPage() {
                                             src={item.image}
                                             alt={item.title}
                                             className="w-full h-full object-center object-contain"
+                                            width={400} height={400}
                                         />
                                     </div>
                                     <div className="ml-4 flex-1">

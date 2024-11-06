@@ -133,7 +133,7 @@ export default function Home() {
             </div>
           </div>
           <div className="mb-8 pl-8 pr-8">
-            <div className="flex items-center">
+            <div className="flex justify-around gap-8 items-center">
               <div className="w-1/2">
                 <h2 className="text-lg font-bold mb-4 text-black">Enhance Your Music Experience</h2>
                 <p className="text-black mb-4">
@@ -147,9 +147,9 @@ export default function Home() {
                 <Image 
                   src="https://m.media-amazon.com/images/I/710jk0KzTjL._SX679_.jpg" 
                   alt="Music Product" 
-                  height={400} 
                   width={400}
-                  className="w-full object-contain"
+                  height={400}
+                  className="object-contain"
                 />
               </div>
             </div>

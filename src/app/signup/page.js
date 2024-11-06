@@ -25,7 +25,6 @@ export default function SignUp() {
           alt="Shopping Cart"
           fill
           className="object-cover"
-          width={400} height={400}
         />
       </div>
 

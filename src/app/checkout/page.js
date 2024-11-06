@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { useCart } from '../context/CartContext';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function CheckoutPage() {
     const { cart = [], apiCart = [], cartTotal = 0 } = useCart() || {};

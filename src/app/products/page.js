@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react'
 import { FaHeart, FaShoppingCart } from 'react-icons/fa'
 // import { useSession } from "next-auth/react"
+import Image from 'next/image';
 // import { useCart } from '../context/CartContext'
 
 export default function ProductsPage() {

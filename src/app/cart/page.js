@@ -4,6 +4,7 @@ import { CartProvider, useCart } from '../context/CartContext';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { FaTrash } from 'react-icons/fa';
+import Image from 'next/image';
 
 function CartContents() {
     const {

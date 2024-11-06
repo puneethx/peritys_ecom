@@ -1,5 +1,6 @@
 import { FaShoppingCart } from 'react-icons/fa'
 import ProductCard from '../../components/Card'
+import Image from 'next/image';
 
 async function getProduct(id) {
   const res = await fetch(`https://fakestoreapi.com/products/${id}`)
@@ -28,7 +29,7 @@ export default async function ProductDetailsPage({ params }) {
       <div className="bg-white shadow-lg rounded-lg overflow-hidden mb-8">
         <div className="md:flex">
           <div className="md:w-1/2">
-            <img
+            <Image
               src={product.image}
               alt={product.title}
               className="w-full h-96 object-contain p-4"

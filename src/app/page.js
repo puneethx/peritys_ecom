@@ -83,7 +83,14 @@ export default function Home() {
               <div className="bg-white shadow-md rounded-md overflow-hidden mb-8">
                 <div className="carousel flex">
                   <div className="carousel-item flex-shrink-0 w-full">
-                    <Image src="https://phonebazaar.shop/assets/iphonebanner.svg" alt="Image" className="w-full h-64 object-cover" height={400} width={400}/>
+                    <Image 
+                      src="https://phonebazaar.shop/assets/iphonebanner.svg" 
+                      alt="iPhone Banner"
+                      className="w-full h-64 object-cover" 
+                      height={400} 
+                      width={1200}
+                      priority
+                    />
                   </div>
                 </div>
                 <div className="carousel-controls flex justify-between items-center px-4 py-2">
@@ -132,12 +139,18 @@ export default function Home() {
                 <p className="text-black mb-4">
                   Discover our latest audio products and accessories to elevate your music enjoyment.
                 </p>
-                <a href="#" className="bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded-md">
+                <Link href="/products" className="bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded-md inline-block">
                   Shop Now
-                </a>
+                </Link>
               </div>
               <div className="w-1/2">
-                <Image src="https://m.media-amazon.com/images/I/710jk0KzTjL._SX679_.jpg" alt="Music Product" height={400} width={400} />
+                <Image 
+                  src="https://m.media-amazon.com/images/I/710jk0KzTjL._SX679_.jpg" 
+                  alt="Music Product" 
+                  height={400} 
+                  width={400}
+                  className="w-full object-contain"
+                />
               </div>
             </div>
           </div>
@@ -158,18 +171,42 @@ export default function Home() {
             <h2 className="text-lg font-bold mb-4 text-black">New Arrival</h2>
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-white shadow-md rounded-md overflow-hidden h-128">
-                <Image src="https://www.concept-phones.com/wp-content/uploads/2020/11/sony-playstation-5-slim-concept-creator-letsgodigital-3-680x450.jpg" alt="New Arrival 1" className="w-full h-full object-cover" height={400} width={400}/>
+                <Image 
+                  src="https://www.concept-phones.com/wp-content/uploads/2020/11/sony-playstation-5-slim-concept-creator-letsgodigital-3-680x450.jpg" 
+                  alt="New Arrival 1" 
+                  className="w-full h-full object-cover" 
+                  height={800} 
+                  width={800}
+                />
               </div>
               <div className="grid grid-cols-1 gap-4">
                 <div className="bg-white shadow-md rounded-md overflow-hidden h-64">
-                  <Image src="https://www.ftmodel.in/public/images/pages/best-modeling-agency-in-indore1696261326.jpg" alt="New Arrival 2" className="w-full h-full object-cover" height={400} width={400}/>
+                  <Image 
+                    src="https://www.ftmodel.in/public/images/pages/best-modeling-agency-in-indore1696261326.jpg" 
+                    alt="New Arrival 2" 
+                    className="w-full h-full object-cover" 
+                    height={400} 
+                    width={400}
+                  />
                 </div>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-white shadow-md rounded-md overflow-hidden h-64">
-                    <Image src="https://miro.medium.com/v2/resize:fit:750/format:webp/1*b70hpVaBiO_wlyYkDASDxQ.png" alt="New Arrival 4" className="w-full h-full object-cover" height={400} width={400}/>
+                    <Image 
+                      src="https://miro.medium.com/v2/resize:fit:750/format:webp/1*b70hpVaBiO_wlyYkDASDxQ.png" 
+                      alt="New Arrival 4" 
+                      className="w-full h-full object-cover" 
+                      height={400} 
+                      width={400}
+                    />
                   </div>
                   <div className="bg-white shadow-md rounded-md overflow-hidden h-64">
-                    <Image src="https://ferraricentre.com/wp-content/uploads/2024/01/652e82cd70aa6522dd785109a455904c.webp" alt="New Arrival 5" className="w-full h-full object-cover" height={400} width={400}/>
+                    <Image 
+                      src="https://ferraricentre.com/wp-content/uploads/2024/01/652e82cd70aa6522dd785109a455904c.webp" 
+                      alt="New Arrival 5" 
+                      className="w-full h-full object-cover" 
+                      height={400} 
+                      width={400}
+                    />
                   </div>
                 </div>
               </div>
